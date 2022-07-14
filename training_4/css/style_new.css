@@ -4,12 +4,15 @@
 body {
   font-family: Arial, Verdana, sans-serif;
 }
+img {
+  max-width: 100%;
+}
+pre{
+  margin: 0;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
-}
-img {
-  max-width: 100%;
 }
 .main-title {
   margin: 20px 0 30px;
@@ -49,12 +52,33 @@ img {
   font-size: 40px;
   color: #333;
 }
-.list{
-  margin:20px 0;
+.list {
+  margin: 20px 0;
   padding-left: 40px;
   font-size: 20px;
   line-height: 48px;
 }
-.list-item{
-
+.list-item {
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 60px;
+}
+.table-caption {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.table-header{
+  font-weight: bold;
+  color: #3f2aff;
+}
+.table-cell{
+  padding:30px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  vertical-align: top;
+  font-size: 20px;
+  text-align: left;
 }

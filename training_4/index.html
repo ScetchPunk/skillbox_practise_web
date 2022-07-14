@@ -68,7 +68,7 @@
         любой сайт вы начинаете писать именно с этого языка. Давайте посмотрим
         на основные правила:
       </p>
-      <ul>
+      <ul class="list">
         <li>Теги и их атрибуты пишутся строчными буквами.</li>
         <li>Для значений атрибутов всегда используются двойные кавычки.</li>
         <li>
@@ -86,71 +86,88 @@
         всеми правилами и применяйте их.
       </p>
       <h2 class="second-title">CSS</h2>
-      В CSS правил больше, потому что синтаксис там посложнее. Одно из важных,
-      которое действительно поможет вам сохранить ваш код в идеальном виде -
-      порядок свойств. Давайте посмотрим, как это выглядит
-      <table border="1" cellspacing="0" cellpadding="3" width="800">
-        <caption>
+      <p class="text">
+        В CSS правил больше, потому что синтаксис там посложнее. Одно из важных,
+        которое действительно поможет вам сохранить ваш код в идеальном виде -
+        порядок свойств. Давайте посмотрим, как это выглядит
+      </p>
+      <table class="table">
+        <caption class="table-caption">
           Порядок написания CSS-свойств
         </caption>
         <thead>
           <tr>
-            <th>Порядок</th>
-            <th>Группа свойств</th>
-            <th>Используемые свойства</th>
+            <th class="table-cell table-header">Порядок</th>
+            <th class="table-cell table-header">Группа свойств</th>
+            <th class="table-cell table-header">Используемые свойства</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Позиционирование</td>
-            <td>
-              position: relative;<br />
-              left: 0;<br />
-              right: 0;<br />
-              top: 0;<br />
-              bottom: 0<br />
+            <td class="table-cell">1</td>
+            <td class="table-cell">Позиционирование</td>
+            <td class="table-cell">
+<pre>
+<code>position: relative;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+</code>
+</pre>
             </td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Блочная модель</td>
-            <td>
-              display: flex;<br />
-              align-items: center;<br />
-              margin: 10px;<br />
-              padding: 10px 20px;<br />
-              border: 1px solid red;<br />
-              width: 200px;<br />
-              height: 100px;<br />
-              box-sizing: border-box;<br />
+            <td class="table-cell">2</td>
+            <td class="table-cell">Блочная модель</td>
+            <td class="table-cell">
+<pre>
+<code>display: flex;
+align-items: center;
+margin: 10px;
+padding: 10px 20px;
+border: 1px solid red;
+width: 200px;
+height: 100px;
+box-sizing: border-box;
+</code>
+</pre>
             </td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Типографика</td>
-            <td>
-              font-family: Arial; <br />
-              font-size: 25px; <br />
-              font-style: italic; <br />
-              text-decoration: none; <br />
-              color: red; <br />
+            <td class="table-cell">3</td>
+            <td class="table-cell">Типографика</td>
+            <td class="table-cell">
+<pre>
+<code>font-family: Arial;
+font-size: 25px;
+font-style: italic;
+text-decoration: none;
+color: red;
+</code>
+</pre>
             </td>
           </tr>
           <tr>
-            <td>4</td>
-            <td>Оформление</td>
-            <td>
-              background: red; <br />
-              opacity: 1; <br />
+            <td class="table-cell">4</td>
+            <td class="table-cell">Оформление</td>
+            <td class="table-cell">
+<pre>
+<code>background: red;
+opacity: 1;
+</code>
+</pre>
             </td>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Анимации</td>
-            <td>
-              transform: translateX(5px); <br />
-              animation: shake 0.3s infinite; <br />
+            <td class="table-cell">5</td>
+            <td class="table-cell">Анимации</td>
+            <td class="table-cell">
+<pre>
+<code>transform: translateX(5px);
+animation: shake 0.3s infinite;
+</code>
+</pre>
             </td>
           </tr>
         </tbody>
@@ -162,15 +179,15 @@
         только для JS, как:
       </p>
       <ol class="list">
-        <li class="list-item">
+        <li>
           В массивах первое и последнее значения не отделяется пробелом, после
           каждой запятой необходимо ставить пробел.
         </li>
-        <li class="list-item">
+        <li>
           В однострочных объектах и при деструктуризации фигурные скобки не
           должны отделяться пробелами от содержимого.
         </li>
-        <li class="list-item">
+        <li>
           Запрещено объявлять переменные, имена которых совпадают с именами
           используемых в коде лейблов, а так же ключевыми cловами, которые
           используются самим Javascript.
