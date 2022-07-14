@@ -1,0 +1,19 @@
+.block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: crimson;
+}
+.relative {
+  position: relative;
+  background-color: #000;
+}
+/* .relative {
+  position: absolute;
+  background-color: #000;
+} */
+.block{
+  left:50px;
+  top:5px;
+}
